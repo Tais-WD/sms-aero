@@ -1,0 +1,45 @@
+.contacts {
+  flex-basis: 550px;
+  justify-content: space-between;
+  display: flex;
+  &__block {
+    display: flex;
+    justify-content: space-evenly;
+    &__item {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .item-1 {
+     flex-basis: 48%;
+  }
+  .item-3 {
+    text-align: right;
+    :nth-child(2n) {
+      padding-top: 8px;
+    }
+  }
+  &__inline-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text {
+    font-size: 13px;
+  }
+  &__tel-link {
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    color: #253140;
+    position: relative;
+    bottom: 2px;
+  }
+  &__rating {
+    display: flex;
+    justify-content: space-around;
+    color: #FFBF00;
+  }
+}
+.pdg-btm-8 {
+  padding-bottom: 8px;
+}

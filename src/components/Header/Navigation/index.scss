@@ -1,0 +1,19 @@
+.navigation {
+  padding-top: 30px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #D3DAE1;
+  }
+  &__list-item {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 7px;
+  }
+  &__link {
+    text-decoration: none;
+    color: #253140;
+  }
+}

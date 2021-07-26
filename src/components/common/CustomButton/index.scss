@@ -1,0 +1,27 @@
+.custom-btn {
+  border-radius: 30px;
+  color: white;
+  &__icon {
+    display: inline;
+    padding-right: 8px;
+  }
+}
+
+.signIn {
+  background-color: #60BF70;
+  padding: 10px 15px;
+}
+
+.main {
+  background: #FFFFFF;
+  color: #253140;
+  border: 1px solid #D3DAE1;
+  padding: 10px 20px;
+
+  &:active,
+  &:hover,
+  &:focus {
+    background: #F26179;
+    color: white;
+  }
+}

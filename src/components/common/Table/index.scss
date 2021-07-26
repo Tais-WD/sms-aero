@@ -1,0 +1,30 @@
+.styled-table {
+  border-spacing: 0;
+  width: 600px;
+  border: none;
+  margin: 0 auto;
+  &__header {
+    .title {
+      text-align: left;
+      font-weight: normal;
+    }
+    tr th {
+      border-bottom: 1px solid #D3DAE1 !important;
+      padding-bottom: 7px;
+    }
+  }
+  td {
+    padding: 10px 10px 10px 0;
+  }
+  &__body {
+    :first-child td {
+      padding: 25px 10px 10px 0;
+    }
+  }
+  &__text {
+    font-size: 13px;
+  }
+  &__price {
+    font-size: 17px;
+  }
+}

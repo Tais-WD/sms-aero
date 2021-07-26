@@ -1,0 +1,17 @@
+.navigation {
+  padding-top: 30px; }
+  .navigation__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #D3DAE1; }
+  .navigation__list-item {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 7px; }
+  .navigation__link {
+    text-decoration: none;
+    color: #253140; }
+
+/*# sourceMappingURL=index.css.map */

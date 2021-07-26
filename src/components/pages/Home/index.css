@@ -1,0 +1,25 @@
+.home-page {
+  padding-top: 65px; }
+  .home-page__nav {
+    display: flex;
+    justify-content: center; }
+    .home-page__nav :not(:last-child) {
+      padding-right: 20px; }
+  .home-page__title, .home-page__subtitle {
+    text-align: center; }
+  .home-page__title {
+    font-weight: 800;
+    font-size: 56px;
+    color: #FF4C5B;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px; }
+  .home-page__subtitle {
+    font-size: 26px;
+    margin: 0; }
+  .home-page__table {
+    padding: 40px 0; }
+  .home-page__link-section {
+    max-width: 600px;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=index.css.map */

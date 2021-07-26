@@ -1,0 +1,32 @@
+.home-page {
+  padding-top: 65px;
+  &__nav {
+    display: flex;
+    justify-content: center;
+    :not(:last-child) {
+      padding-right: 20px;
+    }
+  }
+  &__title,
+  &__subtitle {
+    text-align: center;
+  }
+  &__title {
+    font-weight: 800;
+    font-size: 56px;
+    color: #FF4C5B;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+  }
+  &__subtitle {
+    font-size: 26px;
+    margin: 0;
+  }
+  &__table {
+    padding: 40px 0;
+  }
+  &__link-section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

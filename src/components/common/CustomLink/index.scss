@@ -1,0 +1,25 @@
+.custom-link {
+  color: #36BED9;
+  &__icon {
+    padding-right: 10px;
+    display: inline-block;
+  }
+  &__link {
+    text-decoration: underline;
+    color: #36BED9;
+  }
+}
+
+.link-dashed {
+  text-decoration-style: dashed;
+}
+
+.link-small {
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+
+.link-medium {
+  font-size: 15px;
+  padding-bottom: 20px;
+}

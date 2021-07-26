@@ -1,0 +1,21 @@
+.custom-link {
+  color: #36BED9; }
+  .custom-link__icon {
+    padding-right: 10px;
+    display: inline-block; }
+  .custom-link__link {
+    text-decoration: underline;
+    color: #36BED9; }
+
+.link-dashed {
+  text-decoration-style: dashed; }
+
+.link-small {
+  font-size: 13px;
+  padding-bottom: 8px; }
+
+.link-medium {
+  font-size: 15px;
+  padding-bottom: 20px; }
+
+/*# sourceMappingURL=index.css.map */

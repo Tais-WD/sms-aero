@@ -1,0 +1,21 @@
+.styled-table {
+  border-spacing: 0;
+  width: 600px;
+  border: none;
+  margin: 0 auto; }
+  .styled-table__header .title {
+    text-align: left;
+    font-weight: normal; }
+  .styled-table__header tr th {
+    border-bottom: 1px solid #D3DAE1 !important;
+    padding-bottom: 7px; }
+  .styled-table td {
+    padding: 10px 10px 10px 0; }
+  .styled-table__body :first-child td {
+    padding: 25px 10px 10px 0; }
+  .styled-table__text {
+    font-size: 13px; }
+  .styled-table__price {
+    font-size: 17px; }
+
+/*# sourceMappingURL=index.css.map */
